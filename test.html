@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>程式使用條款與規範｜商店販賣系統</title>
+<style>
+:root{
+  --bg:#f4f7fb;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --line:#e5e7eb;
+  --accent:#2563eb;
+  --accent-soft:#eff6ff;
+  --shadow:0 18px 45px rgba(15,23,42,.09);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif;
+  background:linear-gradient(180deg,#eef4ff 0,#f7f9fc 360px,var(--bg) 100%);
+  color:var(--text);
+  line-height:1.85;
+}
+.wrapper{max-width:980px;margin:0 auto;padding:42px 20px 70px}
+.hero{
+  background:linear-gradient(135deg,#1d4ed8,#2563eb 55%,#3b82f6);
+  color:#fff;
+  border-radius:24px;
+  padding:42px 42px 36px;
+  box-shadow:var(--shadow);
+  margin-bottom:22px;
+}
+.badge{
+  display:inline-block;
+  padding:5px 12px;
+  border:1px solid rgba(255,255,255,.35);
+  border-radius:999px;
+  font-size:.82rem;
+  letter-spacing:.04em;
+  background:rgba(255,255,255,.12);
+}
+h1{margin:14px 0 8px;font-size:clamp(1.8rem,4vw,2.65rem);line-height:1.25}
+.subtitle{margin:0;color:rgba(255,255,255,.88);font-size:1rem}
+.meta{
+  margin-top:26px;
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:10px;
+}
+.meta div{
+  padding:12px 15px;
+  background:rgba(255,255,255,.11);
+  border:1px solid rgba(255,255,255,.2);
+  border-radius:12px;
+}
+.meta strong{display:block;font-size:.78rem;color:rgba(255,255,255,.72);font-weight:600}
+.meta span{display:block;margin-top:2px}
+.card{
+  background:var(--card);
+  border:1px solid rgba(229,231,235,.9);
+  border-radius:20px;
+  padding:30px 34px;
+  margin:16px 0;
+  box-shadow:0 8px 24px rgba(15,23,42,.045);
+}
+.section-title{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin:0 0 18px;
+  font-size:1.25rem;
+}
+.num{
+  width:34px;height:34px;flex:0 0 34px;
+  display:grid;place-items:center;
+  border-radius:10px;
+  background:var(--accent-soft);
+  color:var(--accent);
+  font-weight:800;
+  font-size:.9rem;
+}
+ol{margin:0;padding-left:1.55rem}
+li{padding-left:5px;margin:9px 0}
+li::marker{font-weight:700;color:var(--accent)}
+.note{
+  margin-top:18px;
+  padding:15px 17px;
+  border-left:4px solid var(--accent);
+  background:var(--accent-soft);
+  border-radius:0 10px 10px 0;
+  color:#374151;
+}
+.footer{
+  text-align:center;
+  color:var(--muted);
+  font-size:.85rem;
+  padding-top:28px;
+}
+@media(max-width:650px){
+  .wrapper{padding:20px 12px 45px}
+  .hero{padding:30px 24px;border-radius:20px}
+  .card{padding:24px 21px;border-radius:16px}
+  .meta{grid-template-columns:1fr}
+}
+@media(prefers-color-scheme:dark){
+  :root{--bg:#0b1220;--card:#111827;--text:#e5e7eb;--muted:#9ca3af;--line:#263244;--accent:#60a5fa;--accent-soft:#172554}
+  body{background:linear-gradient(180deg,#0d1b35 0,#0b1220 420px)}
+  .card{border-color:#263244;box-shadow:none}
+  .note{color:#cbd5e1}
+}
+</style>
+</head>
+<body>
+<main class="wrapper">
+
+<header class="hero">
+  <span class="badge">TERMS OF USE · v1.0</span>
+  <h1>程式使用條款與規範</h1>
+  <p class="subtitle">商店販賣系統（消費者／客戶端）</p>
+  <div class="meta">
+    <div><strong>程式名稱</strong><span>商店販賣系統(消費者(客戶)端)</span></div>
+    <div><strong>條款版本</strong><span>1.0</span></div>
+    <div><strong>甲方（程式創作者）</strong><span>余浡睿</span></div>
+    <div><strong>生效日期</strong><span>2026/8/14（週五）</span></div>
+  </div>
+</header>
+
+<section class="card">
+<h2 class="section-title"><span class="num">01</span>第一條　定義</h2>
+<ol>
+<li><strong>甲方</strong>：本程式之創作者及授權提供者。</li>
+<li><strong>乙方</strong>：取得本程式使用權限之使用者。</li>
+<li><strong>本程式</strong>：由甲方自行開發、製作及維護之程式及其相關內容。</li>
+<li><strong>金鑰</strong>：由甲方提供，用於驗證乙方使用權限之授權碼或其他驗證資訊。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">02</span>第二條　程式使用原則</h2>
+<ol>
+<li>甲方得提供乙方使用本程式之權利。</li>
+<li>乙方取得之僅為本程式之使用權，不代表乙方取得本程式之著作權或其他智慧財產權。</li>
+<li>未經甲方授權，乙方不得將本程式提供、轉讓、出租、轉售或散布予第三人。</li>
+<li>乙方不得將甲方提供之金鑰轉讓、轉售、公開或提供予未經授權之第三人使用。</li>
+<li>甲方得依實際情況決定是否向乙方提供金鑰。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">03</span>第三條　程式修改與改作</h2>
+<ol>
+<li>未經甲方明確授權，乙方不得修改、改作、重製、重新包裝或以其他方式變更本程式。</li>
+<li>乙方不得將未經甲方授權修改後之本程式提供或散布予第三人。</li>
+<li>如乙方對本程式進行未經授權之修改，甲方得停止提供相關技術支援、更新或售後服務。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">04</span>第四條　隱私與資料處理</h2>
+<ol>
+<li>本程式可能需要使用瀏覽器功能，以提供程式正常運作所需之功能。</li>
+<li>本程式不會主動蒐集乙方之個人資料或其他使用者資料。</li>
+<li>本程式不會主動將乙方導向未經說明之外部網站。</li>
+<li>本程式只會導向本使用條款文件。如發生導向至其他網站或文件之情形，請提高警覺，並確認程式是否遭到未經授權之修改。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">05</span>第五條　金鑰及授權資訊</h2>
+<ol>
+<li>本程式之金鑰及授權資訊由甲方管理及提供。</li>
+<li>乙方不得以任何未經甲方授權之方式取得、提取、破解、查看、使用或散布本程式內部未公開之金鑰或授權資訊。</li>
+<li>乙方不得透過修改程式、破解程式或其他方式取得原本需要向甲方取得之授權金鑰。</li>
+<li>如發現未經授權取得、使用或散布金鑰之情形，甲方得停止相關金鑰之使用權限，並視實際情況採取適當措施。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">06</span>第六條　條款同意</h2>
+<ol>
+<li>乙方於首次使用本程式時，應閱讀本條款。</li>
+<li>乙方選擇「同意」後，始得依本條款使用本程式。</li>
+<li>如乙方選擇「不同意」，本程式將停止提供互動及其他主要功能。</li>
+<li>乙方如不同意本條款，不得繼續使用本程式。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">07</span>第七條　違規處理</h2>
+<ol>
+<li>如乙方違反本條款，甲方得依違規情況停止提供程式使用權限、金鑰、更新或技術支援。</li>
+<li>如涉及疑似侵害著作權或其他權利之情形，甲方得依適用法律採取適當措施。</li>
+<li>本條款之任何內容均不得解釋為排除或限制法律所保障之權利。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">08</span>第八條　使用權終止</h2>
+<ol>
+<li>甲方得依實際情況終止乙方使用本程式之權利。</li>
+<li>如乙方違反本條款，甲方得立即終止乙方之使用權限。</li>
+<li>使用權終止後，乙方應停止使用本程式及相關金鑰。</li>
+<li>使用權終止不影響甲方依法享有之著作權或其他權利。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">09</span>第九條　條款修改</h2>
+<ol>
+<li>甲方得因程式功能、法律規範或其他合理原因修改本條款。</li>
+<li>如條款有重大變更，甲方應於適當情況下提示乙方重新閱讀相關內容。</li>
+<li>乙方如不同意修改後之條款，應停止使用本程式。</li>
+</ol>
+</section>
+
+<section class="card">
+<h2 class="section-title"><span class="num">10</span>第十條　其他</h2>
+<ol>
+<li>本條款之目的為規範本程式之授權及使用方式。</li>
+<li>本條款未規定之事項，依適用之法律規定處理。</li>
+<li>如本條款部分內容依法無效，不影響其他條款之效力。</li>
+</ol>
+</section>
+
+<footer class="footer">
+  © 2026 余浡睿 · 商店販賣系統（消費者／客戶端） · 條款版本 1.0
+</footer>
+
+</main>
+</body>
+</html>
